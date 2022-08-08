@@ -1,0 +1,234 @@
+%% start of file `cv_german.tex', based on `template_en.tex` by Xavier Danaux (xdanaux@gmail.com).
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+% 
+% Thomas Quaritsch <t.quaritsch@student.tugraz.at>
+
+\documentclass[11pt,a4paper]{moderncv}
+
+\usepackage[english]{babel}
+\usepackage{moderncv-additions}
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{marvosym}
+\usepackage{ifpdf}
+\usepackage[pdftex]{color}
+\ifpdf
+  \usepackage[pdftex]{graphicx}
+\else
+  \usepackage[dvips]{graphicx}\fi
+
+
+\urlstyle{tt}
+
+
+\usepackage[scale=0.775]{geometry}
+\pagestyle{empty}
+\usepackage{url}
+
+
+% moderncv themes
+\moderncvtheme[green]{casual}   % optional arguments are 'blue' (default), 'orange', 'red', 'green', 'grey' and 'roman' (for roman fonts, instead of sans serif fonts)
+%\moderncvtheme[green]{classic}                % idem
+
+% character encoding
+\usepackage[utf8]{inputenc}                   % replace by the encoding you are using
+
+% adjust the page margins
+%\usepackage[scale=0.8]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}			  % if you want to change the width of the column with the dates
+%\AtBeginDocument{\setlength{\maketitlenamewidth}{6cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+
+\AtBeginDocument{\recomputelengths}           % required when changes are made to page layout lengths
+
+% personal data
+\firstname{Ayssar}
+\familyname{Benelhedi}
+%\title{Resumé title (optional)}               % optional, remove the line if not wanted
+\address{Adalbertsteinweg 167}{52066 Aachen}        % optional, remove the line if not wanted
+\mobile{+46 15753239101}                     % optional, remove the line if not wanted
+%\phone{phone (optional)}                      % optional, remove the line if not wanted
+%\fax{fax (optional)}                          % optional, remove the line if not wanted
+\email{med.ayssar@gmail.com}                      % optional, remove the line if not wanted
+%\extrainfo{additional information (optional)} % optional, remove the line if not wanted
+%\photo[64pt]{picture}                          % '64pt' is the height the picture must be resized to and 'picture' is the name of the picture file; optional, remove the line if not wanted
+\quote{``Computers are good at following instructions,\\ but not at reading your mind.'' -- Donald Knuth}                 % optional, remove the line if not wanted
+
+%\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\nopagenumbers 
+
+\begin{document}
+
+% color redefinitions must be after \begin{document}!
+\definecolor{firstnamecolor}{RGB}{25,25,112}
+\definecolor{familynamecolor}{RGB}{25,25,112}
+\definecolor{headercolor}{RGB}{0,128,180}
+\definecolor{quotecolor}{RGB}{103,71,54}
+\definecolor{addresscolor}{RGB}{125,85,85}
+\definecolor{sectionrectanglecolor}{RGB}{96,130,182}
+\definecolor{sectiontitlecolor}{RGB}{0,0,128}
+\definecolor{subsectioncolor}{RGB}{125,85,85}
+\definecolor{footersymbolcolor}{RGB}{103,71,54}
+
+\makeatletter
+
+
+\pagestyle{empty}
+% \chapter*{Application}{}
+
+% \vspace*{50mm}
+% \begin{minipage}{\textwidth}
+% 	\vspace*{3mm}
+% 	\familynamestyle{\@firstname}~~\firstnamestyle{\@familyname} 	
+% 	\hspace*{5mm}{{\color{firstnamecolor}}}\\[3mm]
+% 	\@addressstreet, \@addresscity ~~~ \mobilesymbol~\@mobile ~~~ \emailsymbol~\@email
+% \end{minipage}
+% \begin{minipage}{70pt}
+	
+% \end{minipage}
+
+\vfill
+
+%\begin{minipage}{1.0\textwidth}
+%	\section{Content}
+%	\tableofcontents
+%\end{minipage}
+
+\newpage
+\pagestyle{fancy}
+\chapter{Curriculum}{~Vit\ae}
+\makequote
+
+\section{Contact Information}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvline{Name}{\@firstname~\@familyname}
+\cvline{Address}{\@addressstreet, \@addresscity}
+\cvline{Mobile}{\@mobile}
+\cvline{E-Mail}{\@email}
+\cvline{Date of birth}{21. September 1995 in Sousse}
+\cvline{Nationality }{Tunisian}
+%\cvline{Familienstand}{ledig}
+%\cvline{Präsenzdienst}{abgeleistet}
+%\cvline{Führerschein}{A,B,C,D,E,F,G}
+\makeatother 
+
+%\cventry{year--year}{Degree}{Institution}{City}{\textit{Grade}}{Description}  % arguments 3 to 6 are optional
+
+\section{Education} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cventry{09/2007 -- 07/2010}{College}{College Bhaier Hammem Sousse}{Sousse, Tunisia}{}{}  % arguments 3 to 6 are optional
+\cventry{09/2010 -- 07/2014}{High School}{Lycée Pilote de Sousse}{Sousse, Tunisia}{}{}  % arguments 3 to 6 are optional
+\cventry{09/2014 -- 04/2015}{University}{Institut Préparatoire Aux Études D’ingénieurs El Manar}{Tunis, Tunisia}{}{}  % arguments 3 to 6 are optional
+
+\cventry{04/2015 -- 08/2015}{Language School}{Inlingua}{Stuttgart, Germany}{}{}  % arguments 3 to 6 are optional
+
+\cventry{08/2015 -- 10/2015}{Language School}{Mannheim University}{Mannheim, Germany}{}{}  % arguments 3 to 6 are optional
+
+\cventry{04/2016 -- 4/2020}{University}{RWTH Aachen University}{Aachen, Germany}{\textit{Bachelor}}{Computer Science}  % arguments 3 to 6 are optional
+
+\cventry{04/2020 -- present}{University}{RWTH Aachen University}{Aachen, Germany}{\textit{Master}}{Computer Science}  % arguments 3 to 6 are optional
+
+\section{Experience} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cventry{04/2018 -- 09/2018}{Maths Tutor}{RWTH Aachen University - Chair D of Mathematics}{Aachen}{}{\textsf{A weekly lesson with almost 60 students, in which I correct the submissions of the previous
+week and discuss the possible solutions and prepare the students of the next subsequent
+submission tasks.}}
+
+\cventry{04/2019 -- 08/2021}{Scientific Assistant Student: Software Developer}{Fraunhofer IPT}{Aachen}{}{\begin{itemize}
+\item Design of algorithms based on Bspline functions for solving geometric problems \textsf{(C++)}.
+\item Designing and implementing new software plugin components for Rhinoceros 3D and Grasshopper 3D  \textsf{(Python, C\#)}. 
+\item Creating a Gateway between a machine sending sensor data and a remote database using a MQTT service  \textsf{(Javascript, Python)}.
+\end{itemize}}
+
+\cventry{09/2021 -- present}{Scientific Assistant Student:  Software Developer}{Forschungszentrum Jülich}{Jülich}{}{\begin{itemize}
+	\item Improving the software infrastructure of an open-source project in the context of computational neuroscience research.
+	\item Automating the code generation of models in making them available at the runtime during the execution of the simulation \textsf{(Python, CMake)}.
+	\item Adjusting the data structure of custom-written models to utilize the efficiency of Cache that supports \emph{SIMD} instructions \textsf{(C++)}.
+	\item Analyzing  and fixing potential uncovered bugs \textsf{(Python)}.
+	\end{itemize}}
+
+	
+
+
+
+\section{Thesis} 
+\cventry{03/2019 -- 09/2019}{Bachelor Thesis}{Chair of Computer Science 11 - Embedded Software}{Aachen}{}{
+	A library for Boolean functions in algebraic normal form \textsf{(Java)}.
+}
+\cventry{01/2022 -- 07/2022}{Master Thesis}{Forschungszentrum Jülich}{Jülich}{}{
+	Just-in-time (JIT) compilation for the NEST Simulator to push the boundaries of neural network sizes on HPC clusters \textsf{(C++, Python)}.
+}
+
+\section{Languages} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cvlanguage{Arabic}{Native}{}
+\cvlanguage{German}{Advanced}{}
+\cvlanguage{English}{Advanced}{}
+\cvlanguage{French}{Intermediate}{}
+\cvlanguage{Japanese}{Beginner}{}
+
+\section{IT Skills} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\cvline{Programming Languages}{Java, C/C++, C\#, Python, JavaScript, Typescript.}
+\cvline{Additional Skills}{Object-Oriented Programming, Interface Design and Implementation, API Design and Development. }
+\cvline{IDE} {JetBrains, Visual Studio Code, Eclipse.}
+\cvline{Database} {MongoDB, GraphQL.}
+\cvline{Version Control } {Git.}
+
+
+
+\section{Free Time Activities} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cvitem{}{In my free time, I like solving some challenging programming task provided by an
+interesting platform called \emph{Entwicklerheld}. It has the feature of giving a reward on
+successfully solving the chosen task. Depending on the hardness of the problem, the
+reward may have different values. In general, the reward is just points between 150
+and 1000 points, and the user may afterwards exchange the reward into a voucher.
+At a certain time, I got addicted to the website, and it was really fun buying stuff by
+simply solving problems.}
+
+\cvitem{}{My second interesting hobby after programming is reading books about neuroscience, the secrets behind the human brain and quantum physics. My recent books are: \begin{itemize}
+\item Künstliche Intelligenz und der Sinn des Lebens --Richard David Precht.
+\item Wer bin ich und wenn ja, wie viele? --Richard David Precht.
+\item Something deeply hidden, quantum worlds and the emergence of spacetime --Sean Carroll.
+\item Die Physik des Bewusstseins über die zukunft des Geistes --Michio Kaku.
+\end{itemize}
+}
+
+
+
+\newpage
+
+
+\chapter{Motivation letter}{}
+\input{./anschreiben/en/common.tex}
+%\vspace*{1cm}
+%\begin{center}
+	% \fbox{\includegraphics[height=0.85\textheight]{Masterzeugnis}}	
+%\end{center}
+
+%\vspace*{1cm}
+%\begin{center}
+	% \fbox{\includegraphics[height=0.85\textheight]{Masterzeugnis-2}}	
+%\end{center}
+
+% \newpage
+% \chapter{Abschluss}{zeugnis}
+% \vspace*{1cm}
+% \begin{center}
+% 	% \fbox{\includegraphics[height=0.85\textheight]{Abschlusszeugnis}}	
+% \end{center}
+
+\end{document}
+
+% end of file `cv_german.tex'

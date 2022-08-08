@@ -1,0 +1,91 @@
+
+
+\pagestyle{empty}
+
+
+\setlength{\parindent}{0pt}
+\addtolength{\parskip}{6pt}
+
+\def\firstname{Mohamed Ayssar}
+\def\familyname{Benelhedi}
+\def\FileAuthor{\firstname~\familyname}
+\def\FileTitle{\firstname~\familyname's Bewerbungsschreiben}
+\def\FileSubject{Bewerbungsschreiben}
+\def\FileKeyWords{\firstname~\familyname, Bewerbungsschreiben}
+
+\renewcommand{\ttdefault}{pcr}
+\hyphenation{ins-be-son-de-re}
+
+
+
+\definecolor{firstnamecolor}{RGB}{125,85,85}
+\definecolor{familynamecolor}{RGB}{138,74,57}
+\hypersetup{pdfborder=0 0 0}
+\input{commands.tex}
+
+\sffamily   % for use with a résumé using sans serif fonts;
+%\rmfamily  % for use with a résumé using serif fonts;
+\hfill%
+\begin{minipage}[t]{.6\textwidth}
+	\raggedleft%
+	{\bfseries {\color{firstnamecolor}\firstname}~{\color{familynamecolor}\familyname}}\\[.35ex]
+	\small\itshape%
+	Adalbertsteinweg 167\\
+	52066 Aachen\\[.35ex]
+	\Mobilefone~+46 15753239101\\
+	\Letter~\href{mailto:med.ayssar@gmail.com}{med.ayssar@gmail.com}
+\end{minipage}\\[0.5em]
+%
+%{\color{firstnamecolor}\rule{\textwidth}{.25ex}}
+%
+\begin{minipage}[t]{.4\textwidth}
+	\raggedright%
+	% {\bfseries {\color{firstnamecolor}
+	\vspace*{1em}
+	\firmaContact\\[.20ex]
+	\firmaName\\[.35ex]
+	% }}
+	\small%
+	\firmaStreet\\
+	\firmaPlzCode
+\end{minipage}
+%
+\hfill
+%
+\begin{minipage}[t]{.4\textwidth}
+	\raggedleft % US style
+	\today
+	%April 6, 2006 % US informal style
+	%05/04/2006 % UK formal style
+\end{minipage}\\[1em]
+\raggedright
+
+{\bfseries \color{familynamecolor}\jobName}\\[1.5em]
+
+%Sehr geehrter Herr DI Dr. Pezi,\\[1em]
+Dear \contact, \\[1em]
+%
+I am writing to express my interest in the filed of cloud computing and development of software tools for different communities and societies. As information representation and learning are the keys towards their development, it is very essential to develop software and algorithms that would help us infer new insights about the workflow of communities, learn more about its weak spots and therefore we try improving and optimizing it in order to provide a better reliable products that satisfy both developers and clients.
+
+I have always been fascinated by the impact of math in our life and having obtained a good respectful background in both fields of math and computer science and having the strong motivation to be an active member in the science community, I find myself willing and able to contribute to both fields. As I took different lectures from this same chair, it was interesting learning about communities by applying graph-based algorithms to detect patterns and hidden structures that we may have missed through the usual analytics tools.
+
+During my study at RWTH and my first experience in Fraunhofer IPT, I have managed to improve myself in both soft/hard-skills and I strongly believe that with a certain level of motivation, determination and experience in computer science and software development we can take the
+Industry and education to the next level. Therefore, I think as a master student in computer science at RWTH that I5 would be the next interesting path in my academic and professional career.
+
+I hope to be given the opportunity, as I am confident that I am capable of meeting and possibly even exceed your expectations.
+
+Thank you for considering my application.
+
+
+
+
+	%Yours sincerely,\\[2em] % if the opening is "Dear Mr(s) Doe,"
+	%Mit freundlichen Grüßen,\\[3em] % if the opening is "Dear Sir or Madam,"
+	%
+	%\includegraphics[scale=0.75]{signature_blue}\\
+	{\bfseries \firstname~\familyname}\\
+%
+\vfill%
+%{\slshape \bfseries Bewerbungsunterlagen}\\
+% {\slshape Curriculum Vit\ae{}}
+

@@ -1,0 +1,82 @@
+
+
+\pagestyle{empty}
+
+
+\setlength{\parindent}{0pt}
+\addtolength{\parskip}{6pt}
+
+\def\firstname{Mohamed Ayssar}
+\def\familyname{Benelhedi}
+\def\FileAuthor{\firstname~\familyname}
+\def\FileTitle{\firstname~\familyname's Bewerbungsschreiben}
+\def\FileSubject{Bewerbungsschreiben}
+\def\FileKeyWords{\firstname~\familyname, Bewerbungsschreiben}
+
+\renewcommand{\ttdefault}{pcr}
+\hyphenation{ins-be-son-de-re}
+
+
+
+\definecolor{firstnamecolor}{RGB}{125,85,85}
+\definecolor{familynamecolor}{RGB}{138,74,57}
+\hypersetup{pdfborder=0 0 0}
+\input{commands.tex}
+
+\sffamily   % for use with a résumé using sans serif fonts;
+%\rmfamily  % for use with a résumé using serif fonts;
+\hfill%
+\begin{minipage}[t]{.6\textwidth}
+	\raggedleft%
+	{\bfseries {\color{firstnamecolor}\firstname}~{\color{familynamecolor}\familyname}}\\[.35ex]
+	\small\itshape%
+	Adalbertsteinweg 167\\
+	52066 Aachen\\[.35ex]
+	\Mobilefone~+46 15753239101\\
+	\Letter~\href{mailto:med.ayssar@gmail.com}{med.ayssar@gmail.com}
+\end{minipage}\\[0.5em]
+%
+%{\color{firstnamecolor}\rule{\textwidth}{.25ex}}
+%
+\begin{minipage}[t]{.4\textwidth}
+	\raggedright%
+	% {\bfseries {\color{firstnamecolor}
+	\vspace*{1em}
+	\firmaContact\\[.20ex]
+	\firmaName\\[.35ex]
+	% }}
+	\small%
+	\firmaStreet\\
+	\firmaPlzCode
+\end{minipage}
+%
+\hfill
+%
+\begin{minipage}[t]{.4\textwidth}
+	\raggedleft % US style
+	\today
+	%April 6, 2006 % US informal style
+	%05/04/2006 % UK formal style
+\end{minipage}\\[1em]
+\raggedright
+
+{\bfseries \color{familynamecolor}\jobName}\\[1.5em]
+
+%Sehr geehrter Herr DI Dr. Pezi,\\[1em]
+Guten Abend Herr \contact, \\[1em]
+%
+Nach einem erfolgreichen Abschluss meines Bachelorstudiums im Bereich Informatik mit dem Erwerben von methodischen Kompetenzen und berufsfeldbezogenen Qualifikationen bin ich in der Lage, informationsverarbeitender Systeme zu konzipieren und zu realisieren. Als Informatiker kann ich mich sowohl auf qualitative als auch auf quantitative Klassifizierung von Problemen und Algorithmen verstehen und darüber hinaus auf die Lösung konkreter Anwendungsprobleme.
+
+Während meines Studiums an der RWTH und meiner ersten Erfahrungen im Fraunhofer IPT habe ich es geschafft, mich sowohl in den Soft- als auch in den Hard-Skills zu verbessern und ich bin der Meinung, dass wir mit einem gewissen Maß an Motivation, Entschlossenheit und Erfahrung in der Informatik und Softwareentwicklung die Industrie auf die nächste Stufe bringen können. Daher denke ich als Masterstudent der Informatik an der RWTH, dass Ihr Angebot der nächste interessante Weg in meiner akademischen und beruflichen Karriere wäre.
+
+
+%Yours sincerely,\\[2em] % if the opening is "Dear Mr(s) Doe,"
+%Mit freundlichen Grüßen,\\[3em] % if the opening is "Dear Sir or Madam,"
+%
+%\includegraphics[scale=0.75]{signature_blue}\\
+{\bfseries \firstname~\familyname}\\
+%
+\vfill%
+%{\slshape \bfseries Bewerbungsunterlagen}\\
+% {\slshape Curriculum Vit\ae{}}
+

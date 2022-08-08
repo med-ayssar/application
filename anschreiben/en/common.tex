@@ -1,0 +1,104 @@
+
+
+\pagestyle{empty}
+
+
+\setlength{\parindent}{0pt}
+\addtolength{\parskip}{6pt}
+
+\def\firstname{Ayssar}
+\def\familyname{Benelhedi}
+\def\FileAuthor{\firstname~\familyname}
+\def\FileTitle{\firstname~\familyname's Bewerbungsschreiben}
+\def\FileSubject{Bewerbungsschreiben}
+\def\FileKeyWords{\firstname~\familyname, Bewerbungsschreiben}
+
+\renewcommand{\ttdefault}{pcr}
+\hyphenation{ins-be-son-de-re}
+
+
+
+\definecolor{firstnamecolor}{RGB}{25,25,112}
+\definecolor{familynamecolor}{RGB}{46,77,167}
+\hypersetup{pdfborder=0 0 0}
+\input{commands.tex}
+
+\sffamily   % for use with a résumé using sans serif fonts;
+%\rmfamily  % for use with a résumé using serif fonts;
+\hfill%
+\begin{minipage}[t]{.6\textwidth}
+	\raggedleft%
+	{\bfseries {\color{firstnamecolor}\firstname}~{\color{firstnamecolor}\familyname}}\\[.35ex]
+	\small\itshape%
+	Adalbertsteinweg 167\\
+	52066 Aachen\\[.35ex]
+	\Mobilefone~+46 15753239101\\
+	\Letter~\href{mailto:med.ayssar@gmail.com}{med.ayssar@gmail.com}
+\end{minipage}\\[0.5em]
+%
+%{\color{firstnamecolor}\rule{\textwidth}{.25ex}}
+%
+\begin{minipage}[t]{.4\textwidth}
+	\raggedright%
+	% {\bfseries {\color{firstnamecolor}
+	\vspace*{1em}
+	%\firmaContact\\[.15ex]
+	\firmaName\\[.15ex]
+	% }}
+	\small%
+	\firmaStreet\\
+	%\firmaPlzCode
+\end{minipage}
+%
+\hfill
+%
+\begin{minipage}[t]{.4\textwidth}
+	\raggedleft % US style
+	\today
+	%April 6, 2006 % US informal style
+	%05/04/2006 % UK formal style
+\end{minipage}\\[1em]
+\raggedright
+
+\begin{center}
+	\vspace{1.5em}
+	\Large{\bfseries \color{familynamecolor}\jobName}\\[1.5em]
+
+\end{center}
+
+%Sehr geehrter Herr DI Dr. Pezi,\\[1em]
+%Dear \contact, \\[1em]
+
+After the successful completion of the academic chapter and embarking on a new journey to discover the limits of my current potential and transcend them, I am strenuously searching for new challenges and opportunities that should put me on the correct road to reveal a new part of my personality and sharpen my knowledge and my set of skills. As a student with a computer science background, I am very keen on algorithmically solving problems and thinking outside the box. Especially with the acquired knowledge during my study and the experiences I had, I am absolutely positive that I can contribute to the company's growth and create reliable technologies shaping the world around its users.
+
+The preeminent character in my personality is perseverance, and I consider it a double-edged sword. To some extent, I can become obsessed with the problem and focus all my energy on it until I reach an acceptable solution. During my first experience in Fraunhofer IPT, I got involved in different projects. The first project was  building a plugin for the Siemens NX in C++. The main task of the plugin was surface interpolation based on Bspline functions and deforming 3D objects. The second project involved creating components  for the Grasshopper 3D software. The components were blocks written in C\# that handle and process data, and they can be connected with each other to create a complete pipeline that can be deployed internally in the marketplace of the institute. The marketplace is a GUI based software that tracks the version of the deployed blocks and manage their installation workflow. The backend of the GUI is based on C\# and the front end is using HTML and JavaScript. My last project in IPT was implementing a Gateway based on a MQTT service, and it is implemented in Python and Javascript. A milling machine sends its sensors data to the Gateway, and then the data are sent to a remote database. From there, another service may  read the data from the database and generate a real time digital twin of the object being processed by the milling machine.
+
+
+My new journey in the Forschungszentrum Jülich takes me to a different path, where computer science meets computational neuroscience. My task was to extend certain functionalities in an open-source software. The software is neural Simulation technology (NEST) and it is written in C++ and PYTHON. Users can write a custom model in the NESTML language (domain-specific language for neuron and synapse models) and then generate a C++ version of the models that can be loaded dynamically during the simulation from the PYTHON interface. My task was to split the generated C++ code into blocks and only compile and build the required block of the model when it is needed. To make this concept of Just-In-Time compilation be supported by NEST, I had to work with C++, PYTHON and CMake.
+
+Primarily, I am seeking an environment that provides the necessary support for shaping my talents and opening doors to new opportunity and to excel. Secondly, amusing teammates that do not only support each but also have common social activities that strengthen the trust and synergy between the members.
+
+
+With my affinity for critical thinking and solving challenging problems, I strongly believe that giving me an opportunity to scale my potential and orienting them in the correct path, we can achieve the impossible and discover interesting and formidable solutions.
+
+
+I would like the opportunity to meet with you and discuss the job opportunity. Please let me know if you have any further questions. I am always available either by phone or by email.
+
+Thank you for considering my application.
+
+
+
+
+
+
+
+	%Yours sincerely,\\[2em] % if the opening is "Dear Mr(s) Doe,"
+	%Mit freundlichen Grüßen,\\[3em] % if the opening is "Dear Sir or Madam,"
+	%
+	%\includegraphics[scale=0.75]{signature_blue}\\
+	{\bfseries \firstname~\familyname}\\
+%
+\vfill%
+%{\slshape \bfseries Bewerbungsunterlagen}\\
+% {\slshape Curriculum Vit\ae{}}
+
